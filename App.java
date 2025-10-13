@@ -1,1 +1,10 @@
-public class App { public void salut(String nume) { System.out.println("Salut! " + nume + "!"); } }
+public class App {
+    public void salut(String nume) {
+        System.out.println("Salut! " + nume + "!");
+    }
+
+    public static void main(String[] args) {
+        App app = new App();
+        app.salut("Utilizator");
+    }
+}
